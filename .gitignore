@@ -1,0 +1,13 @@
+# Never commit secrets or personal run data
+.env
+*.key
+session.txt
+spend.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
